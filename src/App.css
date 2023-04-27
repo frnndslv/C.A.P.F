@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.Retangulo{
+  width: 150px;
+  height: 75px;
+}
+.Quadrado{
+  width: 150px;
+  height: 150px;
+}
+.quadradoHome{
+  width: 150px;
+  height: 150px;
+  transform: translate(-11px, 30px);
+}
+.Triangulo{
+  width: 100px;
+  height: 100px;
+}
+.Trapesio{
+  width: 160px;
+  height: 150px;
+}
+.trapesioHome{
+  width: 160px;
+  height: 150px;
+  transform: translate(30px, -1px);
+}
+.Circulo{
+  width: 110px;
+}
+.circuloHome{
+  width: 110px;
+  transform: translate(-10px, -20px);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-back { 
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.title{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputField{
+  margin: 10px;
+}
+
+.input{
+  margin-left: 10px;
+  margin-right: 10px;
 }
